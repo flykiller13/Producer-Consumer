@@ -15,3 +15,8 @@ The “Filled” semaphore locks the consumer - Makes him wait until there is a 
 This means we can remove the ifs (Since the thread will just wait instead).
 
 Ron Yoffe.
+
+# Compilation
+
+$ gcc -pthread -o ProducerConsumer ProducerConsumer.c
+$ ./ProducerConsumer
