@@ -94,6 +94,6 @@ int main()
 	pthread_mutex_destroy(&mutex);
 	sem_destroy(&semEmpty);
 	sem_destroy(&semFull);
-	
-     exit(0);
+
+	exit(0);
 }
